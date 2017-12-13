@@ -19,23 +19,29 @@ public class MainActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		Button addition = (Button)findViewById(R.id.addButton);
-		addition.setOnClickListener(new View.OnClickListener() {
+        final EditText ed1 = (EditText)findViewById(R.id.edt1);
+        final EditText ed2 = (EditText)findViewById(R.id.edt2);
+        ed1.setText("0");
+        ed2.setText("0");
 
-			@Override
+		addition.setOnClickListener(new View.OnClickListener() {
+        	@Override
 			public void onClick(View v) {
 			Locale locale  = new Locale("en", "UK");
 			String pattern = "###.##";
 			DecimalFormat decimalFormat = (DecimalFormat)
 			NumberFormat.getNumberInstance(locale);
 			decimalFormat.applyPattern(pattern);
-			EditText ed1 = (EditText)findViewById(R.id.edt1);
-			EditText ed2 = (EditText)findViewById(R.id.edt2);
+
 			TextView tv = (TextView)findViewById(R.id.tv1);
 			double n1 = Double.parseDouble(ed1.getText().toString());
 			double n2 = Double.parseDouble(ed2.getText().toString());
+			if ((ed1.length() > 0 ) | (ed2.length() > 0) ){
 			tv.setText(String.valueOf(decimalFormat.format(n1+n2)));
-			ed1.setText("");
-			ed2.setText("");
+			ed1.setText("0");
+            ed2.setText("0");
+
+			}
 			}
 		});
 	}
