@@ -61,10 +61,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/edt1"
-        android:layout_marginTop="47dp"
+        android:layout_below="@+id/edt2"
         android:textSize="30sp"
-        tools:ignore="HardcodedText"/>
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/Dobavka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/Dobavka"
+        android:text="@string/_654" />
 
     <Button
         android:id="@+id/addButton"
@@ -72,14 +84,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv1"
         android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="109dp"
         android:text="@string/add"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="@+id/parent"
         app:layout_constraintRight_toRightOf="@+id/parent"
         tools:ignore="UnknownId"
-        tools:layout_editor_absoluteY="255dp"/>
+        tools:layout_editor_absoluteY="255dp" />
 
 </RelativeLayout>
