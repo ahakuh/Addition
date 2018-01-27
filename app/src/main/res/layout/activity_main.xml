@@ -77,19 +77,4 @@
         android:inputType="textPersonName"
         android:labelFor="@+id/Dobavka"
         android:text="@string/_654" />
-
-    <Button
-        android:id="@+id/addButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="109dp"
-        android:text="@string/add"
-        android:textSize="24sp"
-        app:layout_constraintLeft_toLeftOf="@+id/parent"
-        app:layout_constraintRight_toRightOf="@+id/parent"
-        tools:ignore="UnknownId"
-        tools:layout_editor_absoluteY="255dp" />
-
 </RelativeLayout>
