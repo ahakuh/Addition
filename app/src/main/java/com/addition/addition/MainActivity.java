@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         ed2.setText("0");
 
 		addition.setOnClickListener(new View.OnClickListener() {
+
         	@Override
 			public void onClick(View v) {
 			Locale locale  = new Locale("en", "UK");
