@@ -84,6 +84,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Dobavka"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
-        android:text="@string/dob" />
+        android:layout_marginTop="38dp"
+        android:text="@string/heh" />
 </RelativeLayout>
