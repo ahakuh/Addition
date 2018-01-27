@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Addition</string>
     <string name="add">Add</string>
-    <string name="personal_settings"/>
+	<string name="personal_settings">asdfasdf</string>
+	<string name="dob">hehehehe</string>
+	<string name="_654">654</string>
 </resources>
