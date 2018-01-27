@@ -85,5 +85,5 @@
         android:layout_below="@+id/Dobavka"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp"
-        android:text="@string/dob" />
+        android:text="hehehehhe" />
 </RelativeLayout>
