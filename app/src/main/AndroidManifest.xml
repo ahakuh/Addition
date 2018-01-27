@@ -17,8 +17,4 @@
             </intent-filter>
         </activity>
     </application>
-    <application>
-    android:fullBackupContent="@xml/my_backup_rules">
-</app>
-
-</manifest>
+   </manifest>
